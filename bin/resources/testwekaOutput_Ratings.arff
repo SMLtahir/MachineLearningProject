@@ -1,0 +1,71 @@
+@relation G49Project
+
+@attribute rtAllCriticsRating numeric
+@attribute rtAllCriticsNumReviews numeric
+@attribute rtAllCriticsNumFresh numeric
+@attribute rtAllCriticsNumRotten numeric
+@attribute rtAllCriticsScore numeric
+@attribute rtTopCriticsRating numeric
+@attribute rtTopCriticsNumReviews numeric
+@attribute rtTopCriticsNumFresh numeric
+@attribute rtTopCriticsNumRotten numeric
+@attribute rtTopCriticsScore numeric
+@attribute rtAudienceRating numeric
+@attribute rtAudienceNumRatings numeric
+@attribute rtAudienceScore numeric
+@attribute distributor_Sony numeric
+@attribute distributor_Warner_Bros numeric
+@attribute distributor_Universal numeric
+@attribute distributor_Walt_Disney numeric
+@attribute distributor_20th_Century_Fox numeric
+@attribute distributor_Paramount numeric
+@attribute distributor_Miramax numeric
+@attribute distributor_MGM numeric
+@attribute distributor_Sony_Classics numeric
+@attribute distributor_New_Line numeric
+@attribute distributor_Lionsgate numeric
+@attribute distributor_IFC_Films numeric
+@attribute distributor_Strand numeric
+@attribute distributor_Magnolia numeric
+@attribute distributor_Fox_Searchlight numeric
+@attribute distributor_Orion numeric
+@attribute distributor_First_Run_Features numeric
+@attribute distributor_ThinkFilm numeric
+@attribute distributor_Regent_Releasing numeric
+@attribute distributor_Focus_Features numeric
+@attribute genre_Drama numeric
+@attribute genre_Comedy numeric
+@attribute genre_Documentary numeric
+@attribute genre_Action numeric
+@attribute genre_ThrillerSuspense numeric
+@attribute genre_Adventure numeric
+@attribute genre_Horror numeric
+@attribute genre_Romantic_Comedy numeric
+@attribute genre_Musical numeric
+@attribute genre_Black_Comedy numeric
+@attribute genre_Western numeric
+@attribute genre_ConcertPerformance numeric
+@attribute genre_Multiple_Genres numeric
+@attribute freq_ge0_l1 numeric
+@attribute freq_ge1_l2 numeric
+@attribute freq_ge2_l3 numeric
+@attribute freq_ge3_l4 numeric
+@attribute freq_ge4_l5 numeric
+@attribute avg_rating numeric
+@attribute NrOfTopActors numeric
+@attribute NrOfTopDirectors numeric
+@attribute boxOfficeClass {Low,High}
+
+@data
+
+8.9,38.0,35.0,3.0,92.0,0.0,4.0,2.0,2.0,50.0,4.4,3785.0,93.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,11.0,21.0,3.79,1.0,0.0,Low
+8.9,38.0,35.0,3.0,92.0,0.0,4.0,2.0,2.0,50.0,4.4,3785.0,93.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,15.0,35.0,65.0,3.66,1.0,0.0,Low
+8.9,98.0,97.0,1.0,98.0,8.8,23.0,23.0,0.0,100.0,4.1,17640.0,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,26.0,71.0,123.0,78.0,2.95,0.0,1.0,Low
+8.9,98.0,97.0,1.0,98.0,8.8,23.0,23.0,0.0,100.0,4.1,17640.0,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,9.0,3.8,0.0,1.0,Low
+8.4,15.0,15.0,0.0,100.0,0.0,2.0,2.0,0.0,100.0,4.1,1756.0,92.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,1.0,0.0,1.69,1.0,1.0,Low
+0.0,2.0,2.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,9.0,11.0,4.0,2.48,0.0,0.0,High
+8.5,38.0,38.0,0.0,100.0,7.8,5.0,5.0,0.0,100.0,3.6,7211.0,81.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,2.0,4.0,33.0,43.0,3.62,0.0,0.0,High
+8.5,38.0,38.0,0.0,100.0,7.8,5.0,5.0,0.0,100.0,3.6,7211.0,81.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.0,4.0,3.05,0.0,0.0,High
+9.0,37.0,37.0,0.0,100.0,8.8,8.0,8.0,0.0,100.0,4.3,7937.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,11.0,9.0,3.44,1.0,1.0,Low
+9.0,37.0,37.0,0.0,100.0,8.8,8.0,8.0,0.0,100.0,4.3,7937.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,3.0,8.0,3.34,1.0,1.0,Low
+7.8,13.0,13.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,3.0,3.71,0.0,0.0,High
